@@ -1,0 +1,434 @@
+{
+  "id" : "listBook",
+  "name" : "listBook",
+  "type" : "form",
+  "uuid" : "1441780c-d5b7-465b-b303-9bc730bfd24d",
+  "modelVersion" : "2.4",
+  "lastUpdate" : 1719951325656,
+  "description" : "Page generated with Bonita UI designer",
+  "rows" : [
+    [
+      {
+        "type" : "container",
+        "dimension" : {
+          "md" : 12,
+          "sm" : 12,
+          "xs" : 12,
+          "lg" : 12
+        },
+        "propertyValues" : {
+          "repeatedCollection" : {
+            "type" : "variable"
+          },
+          "hidden" : {
+            "type" : "constant",
+            "value" : false
+          },
+          "cssClasses" : {
+            "type" : "constant",
+            "value" : ""
+          },
+          "dimension" : {
+            "type" : "constant",
+            "value" : 12
+          }
+        },
+        "reference" : "63acdce1-ec52-491c-ba39-5270dc32adc3",
+        "hasValidationError" : false,
+        "id" : "pbContainer",
+        "description" : "Auto generate ui for business object \"com.company.model.Book\"",
+        "rows" : [
+          [
+            {
+              "type" : "container",
+              "dimension" : {
+                "xs" : 12
+              },
+              "propertyValues" : {
+                "cssClasses" : {
+                  "type" : "constant",
+                  "value" : ""
+                },
+                "hidden" : {
+                  "type" : "constant",
+                  "value" : false
+                },
+                "repeatedCollection" : {
+                  "type" : "variable"
+                }
+              },
+              "reference" : "6d0eddcd-4cfd-471d-ab86-4350d2e96530",
+              "hasValidationError" : false,
+              "id" : "pbContainer",
+              "description" : "\"com.company.model.Book\" object from \"book\" variable",
+              "rows" : [
+                [
+                  {
+                    "type" : "component",
+                    "dimension" : {
+                      "md" : 12,
+                      "sm" : 12,
+                      "xs" : 12,
+                      "lg" : 12
+                    },
+                    "propertyValues" : {
+                      "hidden" : {
+                        "type" : "constant",
+                        "value" : false
+                      },
+                      "level" : {
+                        "type" : "constant",
+                        "value" : "Level 4"
+                      },
+                      "cssClasses" : {
+                        "type" : "constant",
+                        "value" : ""
+                      },
+                      "text" : {
+                        "type" : "interpolation",
+                        "value" : "Book"
+                      },
+                      "alignment" : {
+                        "type" : "constant",
+                        "value" : "left"
+                      },
+                      "dimension" : {
+                        "type" : "constant",
+                        "value" : 12
+                      }
+                    },
+                    "reference" : "ae8c5c2b-7900-4828-9309-0f8f7a4286db",
+                    "hasValidationError" : false,
+                    "id" : "pbTitle",
+                    "description" : ""
+                  }
+                ]
+              ]
+            }
+          ]
+        ]
+      }
+    ],
+    [
+      {
+        "type" : "tabsContainer",
+        "dimension" : {
+          "xs" : 12,
+          "sm" : 12,
+          "md" : 12,
+          "lg" : 12
+        },
+        "propertyValues" : {
+          "cssClasses" : {
+            "type" : "constant",
+            "value" : ""
+          },
+          "hidden" : {
+            "type" : "constant",
+            "value" : false
+          },
+          "vertical" : {
+            "type" : "constant",
+            "value" : false
+          },
+          "type" : {
+            "type" : "constant",
+            "value" : "tabs"
+          }
+        },
+        "reference" : "5f7b0dd5-7b37-44c4-b2da-880b20af5578",
+        "hasValidationError" : false,
+        "id" : "pbTabsContainer",
+        "tabList" : [
+          {
+            "type" : "tabContainer",
+            "dimension" : {
+              "xs" : 12,
+              "sm" : 12,
+              "md" : 12,
+              "lg" : 12
+            },
+            "propertyValues" : {
+              "cssClasses" : {
+                "type" : "constant",
+                "value" : ""
+              },
+              "hidden" : {
+                "type" : "constant",
+                "value" : false
+              },
+              "disabled" : {
+                "type" : "constant",
+                "value" : false
+              },
+              "allowHTML" : {
+                "type" : "constant",
+                "value" : false
+              },
+              "title" : {
+                "type" : "interpolation",
+                "value" : "TOUS"
+              },
+              "active" : {
+                "type" : "variable",
+                "value" : ""
+              }
+            },
+            "reference" : "6a4480b6-cb56-418d-b4ac-cc64ea51710b",
+            "hasValidationError" : false,
+            "id" : "pbTabContainer",
+            "container" : {
+              "type" : "container",
+              "dimension" : {
+                "xs" : 12
+              },
+              "propertyValues" : { },
+              "reference" : "4d777760-4f38-46a0-8d85-0ef2837bf5a8",
+              "hasValidationError" : false,
+              "id" : "pbContainer",
+              "rows" : [
+                [
+                  {
+                    "type" : "component",
+                    "dimension" : {
+                      "md" : 12,
+                      "sm" : 12,
+                      "xs" : 12,
+                      "lg" : 12
+                    },
+                    "propertyValues" : {
+                      "headers" : {
+                        "type" : "constant",
+                        "value" : [
+                          "Tittle",
+                          "Author",
+                          "Is Available"
+                        ]
+                      },
+                      "allowHtml" : {
+                        "type" : "constant",
+                        "value" : true
+                      },
+                      "hidden" : {
+                        "type" : "constant",
+                        "value" : false
+                      },
+                      "cssClasses" : {
+                        "type" : "expression"
+                      },
+                      "caption" : {
+                        "type" : "constant"
+                      },
+                      "condensed" : {
+                        "type" : "constant",
+                        "value" : false
+                      },
+                      "bordered" : {
+                        "type" : "constant",
+                        "value" : false
+                      },
+                      "selectedRow" : {
+                        "type" : "variable",
+                        "value" : "book_selected"
+                      },
+                      "columnsKey" : {
+                        "type" : "constant",
+                        "value" : [
+                          "tittle",
+                          "author",
+                          "isAvailable"
+                        ]
+                      },
+                      "dimension" : {
+                        "type" : "constant",
+                        "value" : 12
+                      },
+                      "content" : {
+                        "type" : "expression",
+                        "value" : "book"
+                      },
+                      "zebraStriping" : {
+                        "type" : "constant",
+                        "value" : true
+                      },
+                      "allowHTML" : {
+                        "type" : "constant",
+                        "value" : false
+                      },
+                      "striped" : {
+                        "type" : "constant",
+                        "value" : true
+                      }
+                    },
+                    "reference" : "6449cd5f-474b-4d64-8a3c-1714135108fc",
+                    "hasValidationError" : false,
+                    "id" : "pbTable",
+                    "description" : ""
+                  }
+                ]
+              ]
+            }
+          },
+          {
+            "type" : "tabContainer",
+            "dimension" : {
+              "xs" : 12,
+              "sm" : 12,
+              "md" : 12,
+              "lg" : 12
+            },
+            "propertyValues" : {
+              "cssClasses" : {
+                "type" : "constant",
+                "value" : ""
+              },
+              "hidden" : {
+                "type" : "constant",
+                "value" : false
+              },
+              "disabled" : {
+                "type" : "constant",
+                "value" : false
+              },
+              "allowHTML" : {
+                "type" : "constant",
+                "value" : false
+              },
+              "title" : {
+                "type" : "interpolation",
+                "value" : "DISPO"
+              },
+              "active" : {
+                "type" : "variable"
+              }
+            },
+            "reference" : "b9b0713f-9cbb-43f4-8267-3aa69e93d3c3",
+            "hasValidationError" : false,
+            "id" : "pbTabContainer",
+            "container" : {
+              "type" : "container",
+              "dimension" : {
+                "xs" : 12
+              },
+              "propertyValues" : { },
+              "reference" : "041b4c3d-1320-4426-a54e-a6e6badcb0b2",
+              "hasValidationError" : false,
+              "id" : "pbContainer",
+              "rows" : [
+                [
+                  {
+                    "type" : "component",
+                    "dimension" : {
+                      "xs" : 12,
+                      "sm" : 12,
+                      "md" : 12,
+                      "lg" : 12
+                    },
+                    "propertyValues" : {
+                      "cssClasses" : {
+                        "type" : "constant",
+                        "value" : ""
+                      },
+                      "hidden" : {
+                        "type" : "constant",
+                        "value" : false
+                      },
+                      "disabled" : {
+                        "type" : "constant",
+                        "value" : false
+                      },
+                      "allowHTML" : {
+                        "type" : "constant",
+                        "value" : false
+                      },
+                      "inline" : {
+                        "type" : "constant",
+                        "value" : false
+                      },
+                      "labelHidden" : {
+                        "type" : "constant",
+                        "value" : false
+                      },
+                      "label" : {
+                        "type" : "interpolation",
+                        "value" : "Default label"
+                      },
+                      "labelPosition" : {
+                        "type" : "constant",
+                        "value" : "top"
+                      },
+                      "labelWidth" : {
+                        "type" : "constant",
+                        "value" : 4
+                      },
+                      "availableValues" : {
+                        "type" : "expression",
+                        "value" : "isAvaillableBooks"
+                      },
+                      "displayedKey" : {
+                        "type" : "constant"
+                      },
+                      "returnedKey" : {
+                        "type" : "expression",
+                        "value" : "book_selected"
+                      },
+                      "selectedValues" : {
+                        "type" : "variable",
+                        "value" : ""
+                      }
+                    },
+                    "reference" : "879a5bde-3e41-40d3-962b-7391fb2c676f",
+                    "hasValidationError" : false,
+                    "id" : "pbChecklist"
+                  }
+                ]
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  ],
+  "variables" : {
+    "book" : {
+      "type" : "businessdata",
+      "value" : [
+        "{\"displayValue\":\"find [com.company.model.Book]\",\"businessObjectName\":\"Book\",\"query\":{\"name\":\"find\",\"displayName\":\"find\"},\"id\":\"com.company.model.Book\",\"filters\":[],\"pagination\":{\"p\":\"0\",\"c\":\"10\"}}"
+      ],
+      "exposed" : false
+    },
+    "book_selected" : {
+      "type" : "constant",
+      "value" : [
+        ""
+      ],
+      "exposed" : false
+    },
+    "isAvaillableBooks" : {
+      "type" : "businessdata",
+      "value" : [
+        "{\"displayValue\":\"findByIsAvailable [com.company.model.Book]\",\"businessObjectName\":\"Book\",\"query\":{\"name\":\"findByIsAvailable\",\"displayName\":\"findByIsAvailable\"},\"id\":\"com.company.model.Book\",\"filters\":[{\"name\":\"isAvailable\",\"type\":\"BOOLEAN\",\"collection\":false,\"value\":\"true\"}],\"pagination\":{\"p\":\"0\",\"c\":\"10\"}}"
+      ],
+      "exposed" : false
+    }
+  },
+  "assets" : [
+    {
+      "id" : "5265973f-2157-4ef6-8a78-e26ead3f0ed0",
+      "name" : "localization.json",
+      "type" : "json",
+      "order" : 0,
+      "external" : false
+    },
+    {
+      "id" : "d2585d5a-c3df-4482-933b-0ca119f9a48e",
+      "name" : "style.css",
+      "type" : "css",
+      "order" : 0,
+      "external" : false
+    }
+  ],
+  "inactiveAssets" : [ ],
+  "webResources" : [ ],
+  "hasValidationError" : false
+}

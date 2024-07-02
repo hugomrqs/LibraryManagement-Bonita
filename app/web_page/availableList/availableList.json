@@ -1,0 +1,100 @@
+{
+  "id" : "availableList",
+  "name" : "availableList",
+  "type" : "form",
+  "uuid" : "531100d1-a799-4297-97d9-e7313521aa55",
+  "modelVersion" : "2.4",
+  "lastUpdate" : 1719936027710,
+  "description" : "Page generated with Bonita UI designer",
+  "rows" : [
+    [
+      {
+        "type" : "component",
+        "dimension" : {
+          "xs" : 12,
+          "sm" : 12,
+          "md" : 12,
+          "lg" : 12
+        },
+        "propertyValues" : {
+          "cssClasses" : {
+            "type" : "constant",
+            "value" : ""
+          },
+          "hidden" : {
+            "type" : "constant",
+            "value" : false
+          },
+          "caption" : {
+            "type" : "interpolation"
+          },
+          "allowHTML" : {
+            "type" : "constant",
+            "value" : false
+          },
+          "headers" : {
+            "type" : "constant",
+            "value" : [
+              "Tittle",
+              "Author",
+              "Is Available"
+            ]
+          },
+          "content" : {
+            "type" : "constant",
+            "value" : [
+              "isAvaillableBooks"
+            ]
+          },
+          "columnsKey" : {
+            "type" : "constant",
+            "value" : [
+              "tittle",
+              "author",
+              "isAvailable"
+            ]
+          },
+          "selectedRow" : {
+            "type" : "variable",
+            "value" : "book"
+          },
+          "striped" : {
+            "type" : "constant",
+            "value" : true
+          },
+          "condensed" : {
+            "type" : "constant",
+            "value" : false
+          },
+          "bordered" : {
+            "type" : "constant",
+            "value" : false
+          }
+        },
+        "reference" : "311814a9-e9a7-4748-be5d-93f3a8921b38",
+        "hasValidationError" : false,
+        "id" : "pbTable"
+      }
+    ]
+  ],
+  "variables" : { },
+  "assets" : [
+    {
+      "id" : "b1d46483-9a28-4d21-8425-65470586a9d8",
+      "name" : "localization.json",
+      "type" : "json",
+      "order" : 0,
+      "external" : false
+    },
+    {
+      "id" : "c9b15d46-dd38-4ff8-8a4a-ca4354afc3cb",
+      "name" : "style.css",
+      "type" : "css",
+      "order" : 0,
+      "external" : false
+    }
+  ],
+  "inactiveAssets" : [ ],
+  "webResources" : [ ],
+  "hasValidationError" : false
+}
