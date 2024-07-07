@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="ASCII"?>
+<organization:Organization xmlns:organization="http://documentation.bonitasoft.com/organization-xml-schema/1.1">
+  <customUserInfoDefinitions/>
+  <users>
+    <user userName="Quentin">
+      <firstName>Quentin</firstName>
+      <lastName>Tambone</lastName>
+      <personalData/>
+      <professionalData/>
+      <password encrypted="false">bpm</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="Hugo">
+      <firstName>Hugo</firstName>
+      <lastName>Marques</lastName>
+      <personalData/>
+      <professionalData>
+        <email>Hugo.marques@library.com</email>
+      </professionalData>
+      <password encrypted="false">bpm</password>
+      <customUserInfoValues/>
+    </user>
+  </users>
+  <roles>
+    <role name="Librarian">
+      <displayName>Librarian</displayName>
+    </role>
+    <role name="Customer">
+      <displayName>Customer</displayName>
+    </role>
+  </roles>
+  <groups>
+    <group name="University">
+      <displayName>University</displayName>
+    </group>
+  </groups>
+  <memberships>
+    <membership>
+      <userName>Quentin</userName>
+      <roleName>Librarian</roleName>
+      <groupName>University</groupName>
+    </membership>
+    <membership>
+      <userName>Hugo</userName>
+      <roleName>Customer</roleName>
+      <groupName>University</groupName>
+    </membership>
+  </memberships>
+</organization:Organization>
